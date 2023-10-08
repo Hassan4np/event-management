@@ -4,17 +4,17 @@ import { useLoaderData, useParams } from 'react-router-dom';
 
 const CardDetais = () => {
     const cardss = useLoaderData()
-    const {id} = useParams()
-    const [card,setCard] = useState({})
+    const { id } = useParams()
+    const [card, setCard] = useState({})
 
-    useEffect(()=>{
-     const card = cardss.find(card=>card.id===parseInt(id))
-     setCard(card)
-    },[cardss,id])
+    useEffect(() => {
+        const card = cardss.find(card => card.id === parseInt(id))
+        setCard(card)
+    }, [cardss, id])
     console.log(card)
     return (
-        <div>
-            <div className="relative flex w-full  flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className='flex justify-center items-center max-w-screen-lg mx-auto'>
+            {/* <div className="relative flex w-full  flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                     <img
                         src={card.img}
@@ -33,6 +33,16 @@ const CardDetais = () => {
                        {card.des}
                     </p>
                    
+                </div>
+            </div> */}
+            <div className=' p-5' >
+                <div className=' mx-auto'>
+                    <img className='mx-auto' src={card.img} alt="" />
+                </div>
+                <div className='mt-5 text-center'>
+                    <h1 className='mb-3 text-xl font-bold'>{card.name}</h1>
+                    <h5 className='mb-3 text-xl font-semibold'> Price {card.price}</h5>
+                    <p className='text-base text-gray-500'>{card.des}</p>
                 </div>
             </div>
         </div>
