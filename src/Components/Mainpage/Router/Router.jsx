@@ -7,6 +7,7 @@ import Errorpage from "../Pages/Errorpage";
 import CardDetais from "../Pages/CardDetais";
 import PrivateRout from "../PrivateProut/PrivateRout";
 import Blog from "../Pages/Blog";
+import OurTmas from "../Pages/OurTmas";
 
 const MyRouter = createBrowserRouter([
     {
@@ -34,7 +35,11 @@ const MyRouter = createBrowserRouter([
             },
             {
                 path:"/blog",
-                element:<Blog></Blog>
+                element:<PrivateRout><Blog></Blog></PrivateRout>
+            },
+            {
+                path:'/member',
+                element:<PrivateRout><OurTmas></OurTmas></PrivateRout>
             }
             
 
