@@ -5,21 +5,21 @@ import { useContext } from 'react';
 import { AuthContext } from '../AuthRouter/AuthRouter';
 
 const Navbar = () => {
-    const { user,UserLogOut } = useContext(AuthContext)
+    const { user, UserLogOut } = useContext(AuthContext)
     console.log(user)
     const links = <>
         <NavLink className="mr-4 text-base font-normal" to="/" >Home</NavLink>
         <NavLink className="mr-4 text-base font-normal" to="/donation" >About us</NavLink>
-        <NavLink className="text_base font-normal mr-4" to="/statistics" >Blog</NavLink>
+        <NavLink className="text_base font-normal mr-4" to="/blog" >Blog</NavLink>
     </>
-    const henglelogout=()=>{
+    const henglelogout = () => {
         UserLogOut()
-        .then(result=>{
-            console.log(result.user)
-        })
-        .catch(error=>{
-            console.log(error)
-        })
+            .then(result => {
+                console.log(result.user)
+            })
+            .catch(error => {
+                console.log(error)
+            })
     }
     return (
         <div>
@@ -42,9 +42,9 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        
-                        {user&& <p>{user.displayName}</p>}
-                        {!user && <NavLink to="/login"><a className="btn btn-sm">Login</a></NavLink> }
+                        {user && <div className="w-10 mr-1"><img className='rounded-full' src={user.photoURL} /></div>}
+                        {user && <p className='mr-1'>{user.displayName}</p>}
+                        {!user && <NavLink to="/login"><a className="btn btn-sm">Login</a></NavLink>}
                         {user && <a className="btn btn-sm" onClick={henglelogout}>Logout</a>}
                     </div>
                 </div>

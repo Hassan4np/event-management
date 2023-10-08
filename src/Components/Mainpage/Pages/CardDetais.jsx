@@ -37,7 +37,7 @@ const CardDetais = () => {
             </div> */}
             <div className=' p-5' >
                 <div className=' mx-auto'>
-                    <img className='mx-auto' src={card.img} alt="" />
+                    <img className='mx-auto rounded-t-xl' src={card.img} alt="" />
                 </div>
                 <div className='mt-5 text-center'>
                     <h1 className='mb-3 text-xl font-bold'>{card.name}</h1>

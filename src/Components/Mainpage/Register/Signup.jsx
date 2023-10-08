@@ -35,7 +35,7 @@ const Signup = () => {
                 console.log(result.user)
                 swal("Good job!", "You clicked the button!", "success");
                 updateProfile(result.user,{
-                    displayName:name
+                    displayName:name,photoURL:pic
                 })
                 naavgate('/login')
 
