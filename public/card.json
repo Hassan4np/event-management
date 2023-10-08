@@ -1,0 +1,43 @@
+[{
+        "id": 1,
+        "img": "https://i.ibb.co/fCcQB1L/anavarsity.jpg",
+        "name": "Anavarsity",
+        "des": "Anavarsity is not just an educational institution; it's a transformative experience. Our commitment to academic excellence, innovation, and student growth is unwavering. With world-class faculty, state-of-the-art facilities, and a vibrant campus community, Anavarsity provides a nurturing environment for students to thrive. Our diverse range of programs, from STEM to the humanities, empowers students to explore their passions and shape their futures. Beyond academics, Anavarsity fosters leadership, cultural awareness, and lifelong friendships through clubs, events, and community engagement",
+        "price": "$50"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/1Q8PBZ9/Angagement.jpg",
+        "name": "Angagement",
+        "des": "I understand the nature and purpose of this engagement and willingly participate at my own discretion. I acknowledge that any potential risks associated with this activity are my responsibility to assess and manage. I release all organizers, participants, and entities involved from liability for any injuries or damages that may occur.",
+        "price": "$60"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/s188bPK/Baby-showar.jpg",
+        "name": "Baby Shower",
+        "des": "Join us in celebrating the upcoming arrival of [Parent-to-be's Name]'s bundle of joy! It's a Baby Shower filled with love, laughter, and anticipation. Date: [Date] at [Time]. Location: [Venue]. Bring your smiles, well wishes, and a small gift for the baby. Let's shower the parents-to-be with happiness as they embark on this exciting journey. RSVP by [RSVP Deadline] to ensure we have enough treats and fun for everyone. We can't wait to see you there",
+        "price": "$70"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/NLWG2yv/Bristday.jpg",
+        "name": "Birthday",
+        "des": "Another year older, wiser, and more fabulous! Join us as we celebrate [Name]'s birthday in style. Date: [Date], Time: [Time], Location: [Venue]. Get ready for a night of laughter, good company, and delicious cake. Your presence is the best gift, but if you'd like to bring one, [Name]'s wish list includes [Gift Ideas]. Please RSVP by [RSVP Deadline] so we can save you a seat and a slice of cake. Let's make this birthday one to remember!",
+        "price": "$80"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/nQYk8n0/Graduation.jpg",
+        "name": "Graduation",
+        "des": "Get ready to toss your caps in the air! Join us in celebrating the remarkable achievement of [Graduate's Name] as they graduate. Date: [Date], Time: [Time], Location: [Venue]. It's a day filled with pride, accomplishment, and dreams for the future. Wear your best smiles and attire as we honor this milestone. Please RSVP by [RSVP Deadline]. Let's make this graduation ceremony a memorable and inspiring event for [Graduate's Name] as they embark on their next adventure.",
+        "price": "$90"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/drtKfnQ/Holiparty.jpg",
+        "name": "Holiday",
+        "des": "Pack your bags and prepare for an unforgettable holiday adventure! Join us on [Holiday Destination] for an exciting getaway. From [Start Date] to [End Date], we'll explore new places, create lasting memories, and soak up the sun. Don't miss out on this opportunity for relaxation and adventure. RSVP by [RSVP Deadline] to secure your spot in this incredible journey. Get ready for the holiday of a lifetime!",
+        "price": "$100"
+    }
+]
