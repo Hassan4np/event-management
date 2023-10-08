@@ -9,9 +9,8 @@ const Navbar = () => {
     console.log(user)
     const links = <>
         <NavLink className="mr-4 text-base font-normal" to="/" >Home</NavLink>
-        <NavLink className="mr-4 text-base font-normal" to="/donation" >Service</NavLink>
-        <NavLink className="text_base font-normal mr-4" to="/statistics" >Statistics</NavLink>
-
+        <NavLink className="mr-4 text-base font-normal" to="/donation" >About us</NavLink>
+        <NavLink className="text_base font-normal mr-4" to="/statistics" >Blog</NavLink>
     </>
     const henglelogout=()=>{
         UserLogOut()
@@ -43,9 +42,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
+                        
                         {user&& <p>{user.displayName}</p>}
                         {!user && <NavLink to="/login"><a className="btn btn-sm">Login</a></NavLink> }
-                        {user && <a className="btn btn-sm" onClick={UserLogOut}>Logout</a>}
+                        {user && <a className="btn btn-sm" onClick={henglelogout}>Logout</a>}
                     </div>
                 </div>
             </nav>

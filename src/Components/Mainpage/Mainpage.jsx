@@ -7,7 +7,7 @@ const Mainpage = () => {
     return (
         <div className="max-w-screen-xl mx-auto">
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <Outlet className="min-h-screen"></Outlet>
             <Footer></Footer>
         </div>
     );

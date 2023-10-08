@@ -15,7 +15,8 @@ const Signup = () => {
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
         const password = form.get('password');
-        const name = form.get('name')
+        const name = form.get('name');
+        const pic = form.get('imgurl');
         if (password.length < 6) {
             seterror("this password is not 6 caracter")
             return;
@@ -57,6 +58,12 @@ const Signup = () => {
                                     <span className="label-text">Name</span>
                                 </label>
                                 <input type="text" placeholder="name" name='name' className="input input-bordered" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Photo url</span>
+                                </label>
+                                <input type="text" placeholder="Photo url" name='imgurl' className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">

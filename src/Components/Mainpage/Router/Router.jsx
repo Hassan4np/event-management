@@ -29,6 +29,7 @@ const MyRouter = createBrowserRouter([
             {
                 path:"/cardde/:id",
                 element:<PrivateRout><CardDetais></CardDetais></PrivateRout>,
+                loader:()=>fetch('/card.json')
             }
             
 
