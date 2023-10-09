@@ -12,7 +12,6 @@ const Login = () => {
         UserGooglelogin()
             .then(result => {
                 console.log(result.user)
-                navegte(loc?.state ? loc.state:"/");
             })
             .then(error => {
                 console.log(error)
@@ -32,7 +31,7 @@ console.log(loc.state)
             .then((result) => {
                 console.log(result.user)
                 swal("Good job!", "You Login success", "success");
-                navegte('/')
+                navegte(loc?.state ? loc.state:"/");
 
 
             })
