@@ -1,8 +1,14 @@
 
 import about from "./../../../assets/aboutus.jpg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const Aboutus = () => {
+    useEffect(()=>{
+        AOS.init({duration:2000});
+    },[])
     return (
-        <div>
+        <div  data-aos="zoom-in-right">
             <h1 className="text-center text-4xl font-bold p-8">About us</h1>
             <div className=" flex justify-center item">
                 <div className=" bg-base-100 mt-5 shadow-xl ">

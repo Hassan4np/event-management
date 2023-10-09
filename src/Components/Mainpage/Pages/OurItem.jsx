@@ -3,11 +3,18 @@ import book from "./../../../assets/books.jpg"
 import charity from "./../../../assets/Charity Gala party.jpg"
 import dance from "./../../../assets/Danceparty.jpg"
 import sport from "./../../../assets/sports party.jpg"
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const OurItem = () => {
+    useEffect(()=>{
+        AOS.init({duration:2000});
+    },[])
     return (
-        <div>
+        <div data-aos="zoom-in">
             <h1 className="text-center text-4xl p-8 font-bold">Our Spcial item</h1>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3" >
                 <div className="border ">
                     <img src={book} alt="" />
                     <p className="text-center text-xl font-medium mt-2 p-3 ">Book party</p>

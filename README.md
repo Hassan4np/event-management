@@ -1,6 +1,6 @@
 Our Project Name:- </br></br>
 Name: Social Events Management</br>
-Live Link:   </br></br>
+Live Link:  https://personal-project-1daba.web.app  </br></br>
 
 Our feature Project:- </br></br>
 1.Our Company Provide Anavarsity party.</br>

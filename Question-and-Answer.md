@@ -1,4 +1,4 @@
-Question and Answer:-</br></br>
+Question and Answer:-MCQ TEST</br></br>
 1.Answer:-(A: {}) - the variable value is the second bracket when I console the value variable value {} this prints the {}.</br>
 2.Answer :-(C: "12") - when a different type of value is added, add the value same type of value.this is when different type value add this value not add.</br>
 3.Answer:-(B) -  When the Array function gets or push this value give reference this array.when this value print all item show.</br>

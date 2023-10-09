@@ -1,10 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 const Card = ({card}) => {
    const {name,id,img,des,price} = card;
+   useEffect(()=>{
+    AOS.init({duration:2000});
+},[])
     return (
-        <div className="mt-5">
+        <div className="mt-5 " data-aos="flip-left">
             <div className=" rounded-xl bg-white bg-clip-border text-gray-700 shadow-md border rounded-xl">
                 <div className="rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <img
