@@ -33,7 +33,7 @@ const Signup = () => {
         UserSignup(email, password)
             .then(result => {
                 console.log(result.user)
-                swal("Good job!", "You clicked the button!", "success");
+                swal("Good job!", "You Register success", "success");
                 updateProfile(result.user,{
                     displayName:name,photoURL:pic
                 })
@@ -79,7 +79,7 @@ const Signup = () => {
 
                             </div>
                             <label className="label">
-                                <NavLink to="/login"> <a href="#" className="link">Have an account</a></NavLink>
+                                <p>Have an account<NavLink className="ml-2 text-green-500" to="/login">Login</NavLink></p>
                             </label>
                             <div>
                                 {

@@ -9,7 +9,7 @@ const Navbar = () => {
     console.log(user)
     const links = <>
         <NavLink className="mr-4 text-base font-normal" to="/" >Home</NavLink>
-        <NavLink className="mr-4 text-base font-normal" to="/member" >Our Member</NavLink>
+        <NavLink className="mr-4 text-base font-normal" to="/member" >Our Teams</NavLink>
         <NavLink className="text_base font-normal mr-4" to="/blog" >Blog</NavLink>
     </>
     const henglelogout = () => {

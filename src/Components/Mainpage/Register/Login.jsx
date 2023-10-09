@@ -31,7 +31,7 @@ console.log(loc.state)
         UserLogin(email, password)
             .then((result) => {
                 console.log(result.user)
-                swal("Good job!", "You clicked the button!", "success");
+                swal("Good job!", "You Login success", "success");
                 navegte('/')
 
 
@@ -66,7 +66,7 @@ console.log(loc.state)
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
                                 <label className="label">
-                                    <NavLink to="/signup"> <a href="#" className="link">create account</a></NavLink>
+                                    <p className=''>create an account<NavLink className="ml-2 text-green-500" to="/signup">Register</NavLink></p>
                                 </label>
                                 {
                                     errors && <p className='text-red-500 text-base'>{errors};</p>

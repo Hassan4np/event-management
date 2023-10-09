@@ -8,6 +8,7 @@ import CardDetais from "../Pages/CardDetais";
 import PrivateRout from "../PrivateProut/PrivateRout";
 import Blog from "../Pages/Blog";
 import OurTmas from "../Pages/OurTmas";
+import BlogRout from "../PrivateProut/BlogRout";
 
 const MyRouter = createBrowserRouter([
     {
@@ -35,7 +36,7 @@ const MyRouter = createBrowserRouter([
             },
             {
                 path:"/blog",
-                element:<PrivateRout><Blog></Blog></PrivateRout>
+                element:<BlogRout><Blog></Blog></BlogRout>
             },
             {
                 path:'/member',
