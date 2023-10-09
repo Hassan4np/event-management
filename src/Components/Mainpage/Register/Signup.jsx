@@ -23,7 +23,7 @@ const Signup = () => {
         } else if ( !/[!@#$%^&*()_+{}\[\]:;<>,.?~\\|\-=]/.test(password)) {
             seterror("Give me spical caracter");
             return;
-        }else if(!/[A-z]/.test(password)){
+        }else if(!/[A-Z]/.test(password)){
             seterror("Give me captial letter")
             return;
         }

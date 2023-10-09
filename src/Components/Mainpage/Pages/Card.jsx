@@ -20,7 +20,7 @@ const Card = ({card}) => {
                     <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
                     {des.length>200 ? <p>{des.slice(0,100)}<Link className="text-green-400 font-bold text-lg" to={`/cardde/${id}`}>See more..</Link></p>:<p>{des}</p>}
                     </p>
-                    <p className="text-xl"> Price: {price}</p>
+                    <p className="text-xl font-semibold"> Price: {price}</p>
                 </div>
                 <div className="flex items-center justify-between p-6">
                     <div className="flex items-center -space-x-3">

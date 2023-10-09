@@ -1,8 +1,11 @@
-# React + Vite
+Our Project Name:- </br></br>
+Name: Social Events Management</br>
+Live Link:   </br></br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Our feature Project:- </br></br>
+1.Our Company Provide Anavarsity party.</br>
+2.Our company service Engagement part.</br>
+3.We provide Baby Shower party.</br>
+4.Our special party Charity party, Dance party.</br>
+5.We are Providing chip rates and arranging partyarty.</br>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
